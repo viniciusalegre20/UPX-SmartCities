@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #13426c;
+    text-align: center;
+    
+}
+.icon img:hover{
+    width: 28px;
+}
+.Aulas{
+    padding: 20px;
+}
+section img{
+    width: 100px;
+}
+.oi{
+    padding: 10px;
+    background-color: #edf1f4;
+    border-radius: 10px;
+}
+.NomeAula{
+    color: #5c88b5;
+    font-weight: 500;
+}
+.setinha{
+    text-align: end;
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(53, 53, 53);
+}
+.miniIcon{
+    max-width: 60%;
+}
+.miniIcon2{
+    width: 30px;
+    padding-right: 15px;
+}
+@media (max-width: 765px) {
+    #aula2{display: none;}
+    img.fotobotao{max-width: 55%;
+        border: 1px solid #edf1f4;
+        padding: 2px;}
+    img.setinhaCirc{max-width: 400%;
+    padding-top: 25px;}
+    .Aulas{
+        display: none;
+    }
+    
+img.fotobotao:hover{max-width: 55%;
+    border: 1px solid #d6d6d6;
+    background-color: #d6d6d6;
+    padding: 2px;
+}
+#carrosel{
+    display: grid;
+}
+#cardG{
+    display: none;
+}
+}
+@media (max-width: 1024px) {
+    #aula3{display: none;}
+    #botao{max-width: 17%;
+    border: 5px solid #edf1f4;
+    }
+    #cardP{
+        padding-left: 40px;
+    }
+  }
+.fotobotao{
+    border-radius: 100%;
+    max-width: 25%;
+    background-color: #edf1f4;
+    border: 20px solid #edf1f4;
+}
+.fotobotao:hover{
+    border-radius: 100%;
+    max-width: 25%;
+    background-color: #d6d6d6;
+    border: 20px solid #d6d6d6;
+}
+hr{
+    color: black;
+}
+.descricao{
+    white-space: nowrap;        /* Impede que o texto quebre em várias linhas */
+  overflow: hidden;           /* Oculta o texto que transborda a largura da div */
+  text-overflow: ellipsis; 
+}
+.carrosel{
+    display: none;
+}
+.ler{
+    color: #5c88b5;
+    font-weight: 500;
+}
+footer{
+    height: 100px
+}
