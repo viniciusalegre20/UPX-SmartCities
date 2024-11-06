@@ -111,3 +111,23 @@ hr{
 footer{
     height: 100px
 }
+.chatbot{
+    display: none;
+    position: fixed;
+    right: 1px;
+    bottom: 80px;
+    width: 300px;
+    height: 400px;
+}
+.bolinhachat{
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+.bolinhachat:hover{
+    border: 1px solid #5c88b5;
+    border-radius: 100%;
+}
